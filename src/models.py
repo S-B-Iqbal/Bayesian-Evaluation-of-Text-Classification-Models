@@ -33,3 +33,8 @@ dump(classifiers[1], 'knn.joblib')
 dump(classifiers[2], 'svc.joblib')
 dump(classifiers[3], 'nnet.joblib')
 
+# Save Outputs
+# 0 : Naive Bayes; 1: KNN; 2: SVM; 3: Neural Net
+y_pred_knn = classifiers[1].predict(xtest)
+np.save(f"knn.npy", y_pred_knn)
+
