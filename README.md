@@ -1,5 +1,7 @@
 # Bayesian-Evaluation-of-Text-Classification-Models
 
+When evaluating text classification models, we want to be certain about the performance of a model as well as its superiority over another. In the area of text classification it has become a norm to apply Null Hypothesis Significance Test(NHST) to statistically state and compare classifier performance. But, a frequentist approach has its own limitations and fallacies. In this report, we reflect on limitations posed by NHST. We also implement a novel Bayesian approach for evaluating text-classification models. We use a benchmark dataset and create several shallow models consisting of sparse and dense features and also an attention-based model for comparison.
+We empirically demonstrate the difference between the two evaluation approaches.
 
 ## Project 
 ----
