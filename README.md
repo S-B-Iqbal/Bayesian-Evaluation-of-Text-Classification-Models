@@ -20,6 +20,8 @@
 sklearn.metrics.f1_score(ytest[ytest_bert_idx,:], ytest_pred_bert, average='micro', sample_weight=None, zero_division='warn')
 ```
 
+- For NHST, the bootstrap sampling was not optimized, it can take a while to create 10000 bootstrap samples for each case!
+
 ## Datasets
 ----
 
