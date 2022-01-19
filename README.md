@@ -29,4 +29,4 @@ To obtain feature-matrix from DitilBERT model, please refer the section "Creatin
 
 ## Report
 ----
-
+- PDF file in [Report](https://github.com/S-B-Iqbal/Bayesian-Evaluation-of-Text-Classification-Models/tree/main/Report) folder.
